@@ -1,0 +1,44 @@
+
+
+
+
+BEAR
+
+props:
+DONE-name (string)
+DONE-type (string)
+DONE-stomach (array - empty)
+
+methods:
+DONE-reader(name, type)
+DONE-take_fish_from_river(river)
+DONE-roar()
+DONE-food_count()
+
+
+
+
+RIVER
+
+props:
+DONE-name (string)
+DONE-fish - array
+
+methods:
+DONE-reader(name, fish)
+DONE-lose_a_fish(fish)
+DONE-fish_count()
+
+
+
+
+FISH
+
+props:
+DONE-name (string)
+
+methods:
+DONE-reader(name)
+
+
+
