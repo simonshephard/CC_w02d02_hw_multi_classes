@@ -24,6 +24,7 @@ class BearTest < MiniTest::Test
     assert_equal("Grizzly", @bear.type)
   end
 
+  # REMOVED READER ACCESS TO STOMACH SO TESTED IN DIFFERENT WAY
   # def test_get_stomach
   #   assert_equal([], @bear.stomach)
   # end
